@@ -1,0 +1,24 @@
+{
+  "name": "svelte-hotkeys",
+  "version": "1.0.0",
+  "description": "Svelte wrapper around hotkeys-js",
+  "author": "Puru Vijay (https://puruvj.dev)",
+  "repository": "puruvj/svelte-hotkeys",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^4.12.4",
+    "typescript": "^4.3.5"
+  }
+}
