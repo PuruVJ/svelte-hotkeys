@@ -5,6 +5,7 @@ export default defineConfig({
   clean: true,
   dts: true,
   format: ["esm"],
+  external: ["hotkeys-js"],
   entryPoints: ["src/index.ts"],
   target: "es6",
 });
