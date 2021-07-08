@@ -1,6 +1,6 @@
 {
   "name": "svelte-hotkeys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Svelte wrapper around hotkeys-js",
   "author": "Puru Vijay (https://puruvj.dev)",
   "repository": "puruvj/svelte-hotkeys",
@@ -17,10 +17,19 @@
   ],
   "scripts": {
     "build": "tsup",
+    "prepublishOnly": "npm run build",
     "watch": "tsup --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "svelte",
+    "keyboard",
+    "hotkeys",
+    "hotkeys-js",
+    "actions",
+    "hooks",
+    "svelte-actions"
+  ],
   "license": "MIT",
   "devDependencies": {
     "hotkeys-js": "^3.8.7",

@@ -11,10 +11,8 @@
 
 <button on:click={() => (destroyed = !destroyed)}>Toggle</button> Count: {key}
 
-<button use:hotkeys={{ keys: key, handler: (data) => console.log(data) }}>
-	Welcome to SvelteKit
-</button>
-<p tabindex={0}>
+<button> Welcome to SvelteKit </button>
+<p tabindex={0} use:hotkeys={{ keys: key, handler: (data) => console.log(data) }}>
 	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 
