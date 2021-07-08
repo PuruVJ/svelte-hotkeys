@@ -7,5 +7,7 @@ export default defineConfig({
   format: ["esm"],
   external: ["hotkeys-js"],
   entryPoints: ["src/index.ts"],
+  minify: true,
+
   target: "es2018",
 });

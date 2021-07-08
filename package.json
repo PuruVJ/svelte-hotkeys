@@ -1,6 +1,6 @@
 {
   "name": "svelte-hotkeys",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Svelte wrapper around hotkeys-js",
   "author": "Puru Vijay (https://puruvj.dev)",
   "repository": "puruvj/svelte-hotkeys",
