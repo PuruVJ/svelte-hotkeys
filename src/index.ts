@@ -27,14 +27,5 @@ export function hotkeys(node: HTMLElement, options: SvelteHotKeysOptions): Actio
     destroy: () => {
       hotkeysJS.unbind(options.keys);
     },
-    update: (params: SvelteHotKeysOptions) => {
-      hotkeysJS.unbind(options.keys);
-
-      console.log(params.keys);
-      hotkeysJS(params.keys, params.handler);
-
-      // Update handlers
-      [options.keys, options.handler] = [params.keys, params.handler];
-    },
   };
 }
