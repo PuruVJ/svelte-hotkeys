@@ -32,11 +32,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "hotkeys-js": "^3.8.7",
     "tsup": "^4.12.4",
     "typescript": "^4.3.5"
   },
-  "peerDependencies": {
+  "dependencies": {
     "hotkeys-js": "^3.8.7"
   }
 }
